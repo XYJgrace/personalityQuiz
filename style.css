@@ -4,9 +4,9 @@ body {
     margin: 2em;
     background-color: papayawhip;
     text-align: center;
-  }
+}
   
-  /* STYLE TEXT */
+/* STYLE TEXT */
   h1 {
     font-style: italic;
     font-family: fantasy;
@@ -18,7 +18,7 @@ body {
     font-size: 35px;
   }
   
-  /* STYLE FLEX CONTAINER */
+/* STYLE FLEX CONTAINER */
   .question {
     display: flex;
     margin-top: 2em;
@@ -27,20 +27,20 @@ body {
   
   }
     
-  /* STYLE FLEX ITEM */
+/* STYLE FLEX ITEM */
   .answer-choice {
     margin: 5px;
     text-align: center;
   }
   
-  /* STYLE IMAGES */
-  img {
-    height: 10em;
-    padding: 2 em;
-    margin-left:auto;
-    margin-right: auto;
-    border: 5px solid goldenrod;
-  }
+/* STYLE IMAGES */
+img {
+  height: 10em;
+  padding: 2 em;
+  margin-left:auto;
+  margin-right: auto;
+  border: 5px solid goldenrod;
+}
   
   /* STYLE BUTTON */
   #displayResult {
