@@ -1,123 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>Protagonist or Antagonist?</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Protagonist or Antagonist?</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- import the webpage's stylesheet -->
-	<link rel="stylesheet" href="/style.css">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
 
-	<!-- import the webpage's javascript file -->
-	<script src="/script.js" defer>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
 
-	</script>
-</head>
+  <body>
 
-<body>
+    <header>
+      <h1>Would you be a protagonist or an antagonist in a Greek myth?</h1>
+    </header>
 
-	<header>
-		<h1>Would you be a protagonist or an antagonist in a Greek myth?</h1>
-	</header>
+    <main>
 
-	<main>
+      <h2>Would you rather?</h2>
+      <div class="question">
 
-		<h2>Would you rather?</h2>
-		<div class="question">
+        <div class="answer-choice">
+          <img src="assets/box.jpg" alt= "a intricately decorated golden box">
+          <br>
+          <button id="q1a1">Bring suffering to humanity by opening a box</button>
+        </div>
 
-			<div class="answer-choice">
-				<img src="assets/box.jpg" alt= "a intricately decorated golden box">
-        <br>
-        <button id="q1a1">Bring suffering to humanity by opening a box</button>
-      </div>
+        <div class="answer-choice">
+          <img src="assets/cage.jpg" alt = "a golden birdcage with a red and purple bird in it">
+          <br>
+          <button id="q1a2">Lock up you children to prevent a prophecy</button>
+        </div>
 
-      <div class="answer-choice">
-        <img src="assets/cage.jpg" alt = "a golden birdcage with a red and purple bird in it">
-        <br>
-        <button id="q1a2">Lock up you children to prevent a prophecy</button>
-      </div>
+      </div> 
+      
+      <h2>What do you do when you're stuck on a homework problem?</h2>
+      <div class="question">
 
-    </div> 
-    
-    <h2>What do you do when you're stuck on a homework problem?</h2>
-    <div class="question">
+        <div class="answer-choice">
+          <img src="assets/group.jpg" alt="three people with computers and books around them sitting on a grass field">
+          <br>
+          <button id="q2a1">Pester my friends for the answer</button>
+        </div>
 
-      <div class="answer-choice">
-        <img src="assets/group.jpg" alt="three people with computers and books around them sitting on a grass field">
-        <br>
-        <button id="q2a1">Pester my friends for the answer</button>
-      </div>
+        <div class="answer-choice">
+          <img src="assets/hw.jpg" alt="a woman sitting in front of a computer and biting a pencil in frustration">
+          <br>
+          <button id="q2a2">Pick a random letter and pretend it's the right one</button>
+        </div>
 
-      <div class="answer-choice">
-        <img src="assets/hw.jpg" alt="a woman sitting in front of a computer and biting a pencil in frustration">
-        <br>
-        <button id="q2a2">Pick a random letter and pretend it's the right one</button>
-      </div>
+      </div> 
+      
+      <h2>What would be your weapon?</h2>
+      <div class="question">
 
-    </div> 
-    
-    <h2>What would be your weapon?</h2>
-    <div class="question">
+        <!-- protagonist -->
+        <div class="answer-choice">
+          <img src="assets/helmet.jpg" alt="a black metal helmet on a wooden table with dark lighting">
+          <br>
+          <button id="q3a1">The Invisible helmet that grants you invisibility</button>
+        </div>
 
-      <!-- protagonist -->
-      <div class="answer-choice">
-        <img src="assets/helmet.jpg" alt="a black metal helmet on a wooden table with dark lighting">
-        <br>
-        <button id="q3a1">The Invisible helmet that grants you invisibility</button>
-      </div>
+        <div class="answer-choice">
+          <img src="assets/thunderbolt.jpg" alt="a dark sky with a bright flash of thunder">
+          <br>
+          <button id="q3a2">An endless supply of Thunderbolts for your enemies</button>
+        </div>
 
-      <div class="answer-choice">
-        <img src="assets/thunderbolt.jpg" alt="a dark sky with a bright flash of thunder">
-        <br>
-        <button id="q3a2">An endless supply of Thunderbolts for your enemies</button>
-      </div>
+      </div> 
 
-    </div> 
+      <h2>Who would be your bestfriend/partner in crime?</h2>
+      <div class="question">
 
-    <h2>Who would be your bestfriend/partner in crime?</h2>
-    <div class="question">
+        <!-- antagonist -->
+        <div class="answer-choice">
+          <img src="assets/architect.jpg" alt="a wooden table with rulers on it">
+          <br>
+          <button id="q4a1">The greatest architect and inventor of all times</button>
+        </div>
 
-      <!-- antagonist -->
-      <div class="answer-choice">
-        <img src="assets/architect.jpg" alt="a wooden table with rulers on it">
-        <br>
-        <button id="q4a1">The greatest architect and inventor of all times</button>
-      </div>
+        <!-- protagonist -->
+        <div class="answer-choice">
+          <img src="assets/hermes.jpg" alt="a metal sculpture of the messenger god hermes, standing with his staff">
+          <br>
+          <button id="q4a2">The mischievous messenger with winged sandals</button>
+        </div>
 
-      <!-- protagonist -->
-      <div class="answer-choice">
-        <img src="assets/hermes.jpg" alt="a metal sculpture of the messenger god hermes, standing with his staff">
-        <br>
-        <button id="q4a2">The mischievous messenger with winged sandals</button>
-      </div>
+      </div> 
 
-    </div> 
+      <h2>If you had a pet, it would be...</h2>
+      <div class="question">
 
-    <h2>If you had a pet, it would be...</h2>
-    <div class="question">
+        <!-- protagonist -->
+        <div class="answer-choice">
+          <img src="assets/pegasus.jpg" alt="a sillouette of a flying horse against an ocean background with night sky">
+          <br>
+          <button id="q5a1">The winged horse, Pegasus</button>
+        </div>
 
-      <!-- protagonist -->
-      <div class="answer-choice">
-        <img src="assets/pegasus.jpg" alt="a sillouette of a flying horse against an ocean background with night sky">
-        <br>
-        <button id="q5a1">The winged horse, Pegasus</button>
-      </div>
+        <!-- antagonist -->
+        <div class="answer-choice">
+          <img src="assets/cerberus.png" alt="a drawing of the three headed dog facing to the left">
+          <br>
+          <button id="q5a2">The three headed dog, Cerberus</button>
+        </div>
 
-      <!-- antagonist -->
-      <div class="answer-choice">
-        <img src="assets/cerberus.png" alt="a drawing of the three headed dog facing to the left">
-        <br>
-        <button id="q5a2">The three headed dog, Cerberus</button>
-      </div>
-
-    </div> 
-    
-    <button id="displayResult"> Now Let's See Your Result!</button>
-    <h2 id="result">You are ...</h2>
-    <button id="restart">Restart</button>
-    
-  </main>
+      </div> 
+      
+      <button id="displayResult"> Now Let's See Your Result!</button>
+      <h2 id="result">You are ...</h2>
+      <button id="restart">Restart</button>
+      
+    </main>
   </body>
 </html>
