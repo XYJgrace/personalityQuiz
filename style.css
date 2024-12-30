@@ -1,0 +1,64 @@
+/* STYLE SECTIONING TAGS */
+body {
+    font-family: cursive;
+    margin: 2em;
+    background-color: papayawhip;
+    text-align: center;
+  }
+  
+  /* STYLE TEXT */
+  h1 {
+    font-style: italic;
+    font-family: fantasy;
+    color: darkgoldenrod;
+  }
+  
+  h2 {
+    margin-top: 2em; 
+    font-size: 35px;
+  }
+  
+  /* STYLE FLEX CONTAINER */
+  .question {
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    text-align: center;
+  
+  }
+    
+  /* STYLE FLEX ITEM */
+  .answer-choice {
+    margin: 5px;
+    text-align: center;
+  }
+  
+  /* STYLE IMAGES */
+  img {
+    height: 10em;
+    padding: 2 em;
+    margin-left:auto;
+    margin-right: auto;
+    border: 5px solid goldenrod;
+  }
+  
+  /* STYLE BUTTON */
+  #displayResult {
+    margin-top: 3em;
+  }
+  
+  button { 
+    margin-top: 5px;
+    background-color: goldenrod;
+    border: 1px solid gold;
+    color:bisque;
+    text-align: center;
+    border-radius: 7%;
+    padding:20px;
+    font-size: 20px
+  
+  }
+  
+  button:hover {
+    background-color: darkgoldenrod;
+  }
